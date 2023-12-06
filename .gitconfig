@@ -1,0 +1,8 @@
+[user]
+	name = Freyra Wendy Martinez Martinez
+	email = 230110434@itsoeh.edu.mx
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
